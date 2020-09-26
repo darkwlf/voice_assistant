@@ -1,0 +1,9 @@
+datetime
+jdatetime
+datetime
+playsound
+speech_recognition
+gtts
+opncv-python
+numpy
+matplotlib.pyplot
