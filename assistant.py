@@ -127,4 +127,7 @@ while True:
         elif text.startswith("what day is it") or "what day" in text:
         	Cal.Miladi.week()
         elif text.startswith("show") or "show" in text:
-                show(f'{text.split()[1]}.{text.split()[2]}')
+            show(f'{text.split()[1]}.{text.split()[2]}')
+        elif text.startswith("shutdown") or "shutdown" in text:
+            os.system("shutdown \s now")
+                 
